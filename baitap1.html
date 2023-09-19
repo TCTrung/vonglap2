@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In dãy Fibonaci</title>
+</head>
+<body>
+<script>
+
+    let m = prompt('Ban muon in bao nhieu so Fibonaci ?')
+    let a = 0;
+    let b = 1;
+    let c = "0 <br/> 1";
+
+    for (let i = 0; i < m; i++) {
+
+        document.write(c + '<br/>');
+        c = a + b ;
+        a = b;
+        b = c;
+
+    }
+
+
+</script>
+</body>
+</html>
